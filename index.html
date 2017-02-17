@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="dynamicTable.css">
+    <script src="//code.angularjs.org/snapshot/angular.min.js"></script>
+    <script src="arboreal.js"></script>
+    <script src="dynamicTable.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="myCtrl">
+      <dynamic-table tablestructure="personDetailsObject" tabledata="personDetailsData"></dynamic-table>
+      <dynamic-table tablestructure="productTableStructure" tabledata="productTableData"></dynamic-table>
+    </div>
+  </body>
+</html>
