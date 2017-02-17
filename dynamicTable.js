@@ -1,4 +1,4 @@
-// <github link>
+// https://github.com/NithinBiliya/dynamic-table
 
 angular.module('dynamic.table', [])
 
