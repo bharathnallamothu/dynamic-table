@@ -16,6 +16,7 @@ Usage
  <dynamic-table tablestructure="personDetailsObject" tabledata="personDetailsData"></dynamic-table>
 ```
 personDetailsObject is JSON object mentioned in personDetailsStructure.json
+
 personDetailsData is JSON object mentioned in personDetailsData.json
 
 License
