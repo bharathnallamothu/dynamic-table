@@ -5,7 +5,6 @@ angular.module('dynamic.table', [])
 .directive('dynamicTable', function($parse) {
   return {
     restrict: 'E',
-    //require: 'tableStructure,tableData',
     scope: {tablestructure: "=", tabledata: "="
     },
     templateUrl: 'dynamicTable.tmpl.html',
