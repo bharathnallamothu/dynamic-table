@@ -1,4 +1,6 @@
 # dynamic-table
+AngularJS module
+
 Creates html table dynamically from table structure json and table data json
 
 Table structure JSON format - refer to personDetailsStructure.json or productTableStructure.json	
