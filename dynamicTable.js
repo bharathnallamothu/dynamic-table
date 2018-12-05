@@ -9,6 +9,8 @@ angular.module('dynamic.table', [])
     },
     templateUrl: 'dynamicTable.tmpl.html',
     link: function link(scope, element, attrs) {
+        var elem = angular.element(jQuery(element).find('table'));
+         elem.addClass(attrs.class)
       
       scope.$watch('tablestructure', function(newTablestructure) {
         // need to re-run the table generation everytime tablestructure changes
